@@ -4,6 +4,8 @@ import TodoList from "./components/TodoList";
 import WeatherApp from "./components/WeatherApp";
 import ThemeSwitcherApp from "./components/ThemeSwitcherApp";
 import QrCodeApp from "./components/QrCodeApp";
+import ImagePreviewer from "./components/ImagePreviewer";
+import SearchList from "./components/SearchList";
 
 export default function App() {
   return (
@@ -18,6 +20,8 @@ export default function App() {
         <ThemeSwitcherApp />
         <WeatherApp />
         <QrCodeApp />
+        <ImagePreviewer/>
+        <SearchList/>
       </div>
     </div>
   );

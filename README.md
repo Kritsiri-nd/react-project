@@ -1,16 +1,13 @@
-# React + Vite
+# React Components Basic useState
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+โปรเจคตัวอย่างสำหรับทบทวนการใช้ `useState` และการจัดการเหตุการณ์บน React โดยรวมคอมโพเนนต์เล็กๆ หลายแบบไว้ในหน้าเดียว
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## คอมโพเนนต์ที่มี
+- `Counter` ปรับเพิ่ม-ลดตัวเลขพร้อมข้อความแจ้งเตือนเมื่อค่าต่ำกว่า 0
+- `Simple Form` จัดการฟอร์มชื่อและอีเมล พร้อมปุ่มรีเซ็ต
+- `Todo List` เพิ่มและลบรายการงานด้วยไอดีแบบ timestamp
+- `Theme Switcher` สลับโหมดสว่าง/มืดด้วยปุ่มเดียว
+- `Weather App` ดึงสภาพอากาศล่าสุดจาก Open-Meteo ตามชื่อเมืองที่ค้นหา
+- `QR Code Generator` สร้างรูป QR ผ่านบริการ api.qrserver.com
+- `Image Previewer` อัปโหลดและแสดงตัวอย่างรูปภาพ
+- `Search List` ค้นหาจากรายการ (Apple, Banana, Cherry, Date, Elderberry)
